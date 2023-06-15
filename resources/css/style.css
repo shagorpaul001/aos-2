@@ -1,0 +1,196 @@
+/* ======================= */
+/* BASIC SETUP */ 
+/* ======================= */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* HEADER */
+
+h1 {
+    font-size: 55px;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    
+}
+
+h2 {
+    font-size: 27px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* ======================= */
+/* REUSABLE COMPONENTS */ 
+/* ======================= */
+
+.row {
+    max-width: 1140px;
+    margin: 0
+}
+
+section {
+    padding:  80px;
+}
+
+/* ======================= */
+/* HEADER SECTION */ 
+/* ======================= */
+
+header {
+    background: url(img/pexels-rulo-davila-10574813.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+   
+}
+
+.hero-text-box {
+    text-align: center;
+    
+}
+
+/* ======================= */
+/* SERVICES SECTION */ 
+/* ======================= */
+
+.services-section {
+    color: #d74680;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* ======================= */
+/* TESTIMONIAL SECTION */ 
+/* ======================= */
+
+.client-photo {
+    width: 100px;
+    float: left;
+    padding: 19px 10px;
+    
+}
+
+.testimonial {
+    background: #e7f1f8;
+}
+
+
+/* BUTTON */
+
+.btn:link,
+.btn:visited,
+.btn {
+    background: #30bae7;
+    border-bottom: .3rem solid #14a58c;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: 4.5rem;
+    font-size: 1.6rem;   
+}
+
+.row {
+    text-align: center;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+} 
+
+/* ======================= */
+/* TEAM SECTION */ 
+/* ======================= */
+
+h4 {
+    font-size: 25px;
+}
+
+p1 {
+    font-size: 25px;
+}
+
+/* ======================= */
+/* SKILL SECTION */ 
+/* ======================= */
+
+h3 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.skill-section {
+    background: #d79bb3;
+}
+
+/* ======================= */
+/* SUPPORT SECTION */ 
+/* ======================= */
+
+.support-section {
+    background: #e7f1f8;
+}
+
+/* ======================= */
+/* FOOTER SECTION */ 
+/* ======================= */
+
+.footer-section {
+    background: #1e1208;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(203, 179, 179, 0.7);
+    
+}
+
+.footer-section li {
+    display: inline-block;
+    margin: 0 2rem;
+} 
+
+p2 {
+    color: #fff;
+}
+
+p3 {
+    color: #fff;
+}
+
+.row {
+    padding: 1rem 0;
+}    
+
+/* ======================= */
+/* CONTEN SECTION */ 
+/* ======================= */
+
+.row1 {
+  text-align: center;
+    padding: 0 10px;
+    margin-bottom: 0 10px;
+}
+
+p5 {
+    font-size: 20px;
+}
